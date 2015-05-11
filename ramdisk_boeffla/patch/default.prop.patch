@@ -1,17 +1,17 @@
-From ed86f00a30b929612e48623d6cf11270681cb910 Mon Sep 17 00:00:00 2001
+From 293367f5cabd3ca149ccdbecb252611e85156cda Mon Sep 17 00:00:00 2001
 From: andip71 <andreasp@gmx.de>
-Date: Mon, 30 Sep 2013 10:16:59 +0200
-Subject: [PATCH] nach
+Date: Mon, 11 May 2015 11:57:58 +0200
+Subject: [PATCH] 2
 
 ---
- default.prop | 4 ++--
- 1 file changed, 2 insertions(+), 2 deletions(-)
+ default.prop | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
 
 diff --git a/default.prop b/default.prop
-index d1906dc..8f75cd0 100644
+index 7aab185..293eb0c 100644
 --- a/default.prop
 +++ b/default.prop
-@@ -1,8 +1,8 @@
+@@ -1,10 +1,10 @@
  #
  # ADDITIONAL_DEFAULT_PROPERTIES
  #
@@ -20,8 +20,11 @@ index d1906dc..8f75cd0 100644
 +ro.adb.secure=0
 +ro.secure=0
  ro.allow.mock.location=0
- ro.debuggable=1
+-ro.debuggable=0
++ro.debuggable=1
  ro.zygote=zygote32
+ persist.sys.usb.config=mtp
+ camera2.portability.force_api=1
 -- 
-1.8.1.2
+1.9.1
 
